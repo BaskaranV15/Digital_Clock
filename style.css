@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #4e81f0;
+    color: #f04907;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #34d602;
+    margin-bottom: 30px;
+}
+
+#clock {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+#date {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button, #tweet {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    background: #444;
+    color: white;
+}
+
+#tweet {
+    background: #1DA1F2;
+    color: white;
+    text-decoration: none;
+}
